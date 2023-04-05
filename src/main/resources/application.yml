@@ -1,15 +1,40 @@
 ## YAML Template.
-server:
-    port: 8082
-spring:
-    datasource:
-        driver-class-name: org.mariadb.jdbc.Driver
-        password: ''
-        url: jdbc:mariadb://localhost:3306/dcbapp
-        username: root
-    jpa:
-        hibernate:
-            ddl-auto: update
-        show-sql: true
-welcome:
-    message: Welcome To Spring Data Tutorial
+#server:
+#    port: 8082
+#
+#---
+#
+#spring:
+#    config:
+#        activate:
+#            on-profile: dev
+#    datasource:        
+#        driver-class-name: org.mariadb.jdbc.Driver
+#        password: ''
+#        url: jdbc:mariadb://localhost:3306/dcbapp
+#        username: root
+#    jpa:
+#        hibernate:
+#            ddl-auto: update
+#        show-sql: true
+#welcome:
+#    message: Welcome To Spring Data Tutorial Development Environment
+#    
+#---
+#
+#spring:
+#    config:
+#        activate:
+#            on-profile: prod
+#    datasource:        
+#        driver-class-name: org.mariadb.jdbc.Driver
+#        password: ''
+#        url: jdbc:mariadb://localhost:3306/dcbapp
+#        username: root
+#    jpa:
+#        hibernate:
+#            ddl-auto: update
+#        show-sql: true
+#welcome:
+#    message: Welcome To Spring Data Tutorial Production Environment    
+    
